@@ -2,62 +2,44 @@ import './App.css'
 
 function App() {
 
-const n=1;
+let n=5;
 console.log(n);
 
-const z = 10;
+let x =2;
+let y =3;
 
-const x = 2;
-const y = 3;
 
-let v1 = n3+2z-n;
 
-let w1 = n1;
-let w2 = n2;
-let w3 = n3;
-let w4 = n4;
-let w5 = n5;
-let w6 = n6;
-let w7 = n7;
-let w8 = n8;
-let w9 = n9;
-let w10 = n10;
-
-let r1 = 15x**3+1-15y;
-let r2 = 2x+315-4x2;
-let r3 = 3*y2-15x**2y-7y;
-let r4 = 2xy+15xy;
-let r5 = 3x*2+15y+2;
 
   return (
       <>
-          <header>
-              <div class="podpis">Mój komputer ma numer {n}</div>
+          <div class="head">
+              <div class="nrkomp">Komputer przy którym siedzę ma numer: {n}</div>
 
-</header>
+</div>
     <div class="par">
-            <div class="rown ro2">
+            <div class="tabliczka">
                 <p>
-                {n} * 1 = {w1}<br></br>
-                {n} * 2 = {w2}<br></br>
-                {n} * 3 = {w3}<br></br>
-                {n} * 4 = {w4}<br></br>
-                {n} * 5 = {w5}<br></br>
-                {n} * 6 = {w6}<br></br>
-                {n} * 7 = {w7}<br></br>
-                {n} * 8 = {w8}<br></br>
-                {n} * 9 = {w9}<br></br>
-                {n} * 10 = {w10}<br></br>
+                {n} * 1 = {a1}<br></br>
+                {n} * 2 = {a2}<br></br>
+                {n} * 3 = {a3}<br></br>
+                {n} * 4 = {a4}<br></br>
+                {n} * 5 = {a5}<br></br>
+                {n} * 6 = {a6}<br></br>
+                {n} * 7 = {a7}<br></br>
+                {n} * 8 = {a8}<br></br>
+                {n} * 9 = {a9}<br></br>
+                {n} * 10 = {a10}<br></br>
                 </p>
           </div>
 
-              <div class="rown ro1">
+              <div class="rownanie1">
                   <p>z = {z}</p><br></br>
                 <p>{n} * 3 + 2z - {n} = {v1}</p>
           </div>
 
 
-              <div class="rown ro3">
+              <div class="rownanie2">
                   <p>x = {x} y = {y}</p><br></br>
 
                   <p>
@@ -75,3 +57,4 @@ let r5 = 3x*2+15y+2;
 }
 
 export default App
+
