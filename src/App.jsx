@@ -26,7 +26,7 @@ let a10 = n*10;
 
   return (
       <>
-       moj komputer ma numer {n}
+       
   </>
 
   )
