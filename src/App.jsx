@@ -26,7 +26,7 @@ let a10 = n*10;
 
   return (
       <>
-      <div class="nr"> moj komputer ma numer {n}</div>
+       moj komputer ma numer {n}
   </>
 
   )
